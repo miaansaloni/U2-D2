@@ -387,10 +387,21 @@ header {
   position: sticky;
   top: 0;
 }
-section {
+main {
   z-index: 1;
 }
 /*UNDERLINE*/
+#underline {
+  display: inline-block;
+  position: relative;
+}
+#underline img {
+  width: 100%;
+  position: absolute;
+  right: 0;
+  bottom: -18px;
+  opacity: 60%;
+}
 
 /*IMMAGINE INCAPSULATA*/
 

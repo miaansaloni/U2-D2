@@ -366,6 +366,17 @@ footer {
   color: red;
 }
 
+@media screen and (min-width: 700px) {
+  #btn1 {
+    top: 0;
+    margin-top: 1rem;
+  }
+  #btn2 {
+    top: 0;
+    margin-top: 5.5rem;
+  }
+}
+
 /*STICKY HEADER*/
 body {
   position: relative;
@@ -399,6 +410,10 @@ section h2 {
 .fa-tag {
   position: absolute;
   right: 0;
+  top: 0;
+  color: rgba(0, 0, 0, 0.075);
+  font-size: 4rem;
+  margin: 0.5rem;
 }
 
 @media screen and (min-width: 800px) {

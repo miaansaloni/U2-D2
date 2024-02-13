@@ -347,6 +347,8 @@ footer {
   position: fixed;
   bottom: 0;
   font-size: x-large;
+  box-shadow: rgba(0, 0, 0, 0.103) 0px 54px 55px, rgba(0, 0, 0, 0.016) 0px -12px 30px, rgba(0, 0, 0, 0.062) 0px 4px 6px,
+    rgba(0, 0, 0, 0.087) 0px 12px 13px, rgba(0, 0, 0, 0) 0px -3px 5px;
 }
 
 #btn1 {
@@ -386,7 +388,7 @@ header {
   top: 0;
 }
 section {
-  z-index: ;
+  z-index: 1;
 }
 /*UNDERLINE*/
 
